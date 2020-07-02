@@ -1,0 +1,29 @@
+{
+  "name": "protractor-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moizKachwala/protractor-mocha-chai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moizKachwala/protractor-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/moizKachwala/protractor-mocha-chai#readme"
+}
